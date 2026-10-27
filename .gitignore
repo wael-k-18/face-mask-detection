@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Model files (too large for GitHub — download via script)
+model/mask_detector.h5
+model/mask_detector.keras
+
+# Face detector weights (too large — download via script)
+face_detector/res10_300x300_ssd_iter_140000.caffemodel
+
+# Dataset images (too large — download via script)
+dataset/with_mask/*
+dataset/without_mask/*
+
+# Keep the empty folder structure
+!dataset/with_mask/.gitkeep
+!dataset/without_mask/.gitkeep
+!model/.gitkeep
+
+# Screenshots taken during detection
+screenshots/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temp repo download
+dataset/_tmp_repo/
+dataset/repo.zip
